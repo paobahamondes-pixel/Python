@@ -1,0 +1,26 @@
+def mostrar_saludo():
+    print("=" * 40)
+    print("Bienvenido al sistema de salud")
+    print("Gestion integral de pacientes")
+    print("=" * 40)
+mostrar_saludo()
+def bienvenida():
+    print("\n" + "=" * 35)
+    print("Sistema de gestión hospitalaria")
+    print("Versión 1.0")
+    print("=" * 35)
+bienvenida()
+def menu():
+    print("\n" + "=" * 30)
+    print("Menú de opciones")
+    print("1. Registrar paciente")
+    print("2. Consultar historial")
+    print("4. Salir")
+    print("=" * 30)
+menu()
+def despedida():
+    print("\n" + "=" * 30)
+    print("Gracias por usar el sistema")
+    print("Hasta pronto")
+    print("=" * 30) 
+despedida()
